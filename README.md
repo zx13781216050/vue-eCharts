@@ -1,57 +1,46 @@
-**demo**: [https://taylorchen709.github.io/vue-admin/](https://taylorchen709.github.io/vue-admin/)
+一、 入门
+项目介绍
+工具安装和环境搭建(nodejs,npm,mongodb)
+初始化项目
+二、 管理后台
+基于Element UI的后台管理基础界面搭建
 
-# To start
+创建分类
 
-This is a project template for [vue-cli](https://github.com/vuejs/vue-cli)
+分类列表
 
-``` bash
-# install dependencies
-npm install
+修改分类
 
-# serve with hot reload at localhost:8081
-npm run dev
+删除分类
 
-# build for production with minification
-npm run build
+子分类
 
-```
+通用 CRUD 接口
 
-# Folder structure
-* build - webpack config files
-* config - webpack config files
-* dist - build
-* src -your app
-    * api
-    * assets
-    * common
-    * components - your vue components
-    * mock
-    * styles
-    * views - your pages
-    * vuex
-    * App.vue
-    * main.js - main file
-    * routes.js
-* static - static assets
+装备管理
 
-# Theme
-You can change theme by 
-1. Generate theme packages by [https://elementui.github.io/theme-preview/#/](https://elementui.github.io/theme-preview/#/)
-2. Put theme packages in src/assets/theme/
-3. Edit src/main.js 
-``` bash
-   import 'element-ui/lib/theme-default/index.css'
-   to
-   import './assets/theme/your-theme/index.css'
-```
-4. Edit src/styles/vars.scss
+图片上传 (multer)
 
-![theme-blue](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/rec-demo.gif)
-![theme-green](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/theme-green.png)
+英雄管理
 
-# Browser support
+编辑英雄 (关联,多选,el-select, multiple)
 
-Modern browsers and IE 10+.
+技能编辑
 
-# License
-[MIT](http://opensource.org/licenses/MIT)
+文章管理
+
+富文本编辑器 (quill)
+
+首页广告管理
+
+管理员账号管理 (bcrypt)
+
+登录页面
+
+登录接口 (jwt,jsonwebtoken)
+
+服务端登录校验
+
+客户端路由限制 (beforeEach, meta)
+
+上传文件的登录校验 (el-upload, headers)
